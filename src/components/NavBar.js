@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import Siderbar from "./Siderbar";
 import { faHome, faList, faCog } from "@fortawesome/free-solid-svg-icons";
+import { Link, useLocation } from "react-router-dom";
 
 function NavBar() {
-  const [showSidebar, setShowSidebar] = useState(true);
+  const [showSidebar, setShowSidebar] = useState(false);
+  const loction = useLocation();
   const links = [
     { name: "Home", path: "/", icon: faHome },
     { name: "Recipes", path: "/recipes", icon: faList },
@@ -22,9 +24,17 @@ function NavBar() {
         </a>
         <div className="nav-links">
           {links.map((link) => (
-            <a href="#!" key={link.name}>
+            <Link
+              className={
+                loction.pathname === link.path
+                  ? " sidebar-link active"
+                  : "sidebar-link"
+              }
+              to={link.path}
+              key={link.name}
+            >
               {link.name}
-            </a>
+            </Link>
           ))}
         </div>
         <div
