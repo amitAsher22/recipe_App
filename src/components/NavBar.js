@@ -19,9 +19,9 @@ function NavBar() {
   return (
     <>
       <div className="navbar container">
-        <a href="#!" className="logo">
+        <Link to="/" href="#!" className="logo">
           F<span>oo</span>dHubFast
-        </a>
+        </Link>
         <div className="nav-links">
           {links.map((link) => (
             <Link
