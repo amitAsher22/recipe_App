@@ -4,7 +4,7 @@
 
 
 
- :triangular_flag_on_post: <a href="[https://uploading-react.vercel.app/](https://recipe-app-ivory-phi.vercel.app/)" target="_blank">The Website</a>
+:triangular_flag_on_post: <a href="https://recipe-app-ivory-phi.vercel.app/" target="_blank">The Website</a>
 
 let's see what react js actually is And I used : 
 - *React* is a *JavaScript* library for building user-friendly interfaces.
