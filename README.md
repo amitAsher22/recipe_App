@@ -1,6 +1,7 @@
 # Food_Shopping_react
 
-![uplo](https://github.com/amitAsher22/uploading_react/assets/69055006/6a36a43d-3d03-40e8-9240-0b0deb1f5bcb)
+
+![Uploading screencapture-recipe-app-ivory-phi-vercel-app-2024-01-11-10_49_54.png…]()
 
 
 
